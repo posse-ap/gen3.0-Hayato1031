@@ -1,0 +1,60 @@
+.whatheader{  
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+  
+  letter-spacing: 0.1em;
+  
+  /* gray-dark */
+  
+  color: #666666;
+}
+
+.quizheader{
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  letter-spacing: 0.1em;
+
+  /* gray-dark */
+
+  color: #666666;
+}
+
+.header{
+  /* header */
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #666666
+}
+
+.logo{
+  /* logo */
+  width: 148px;
+  height: 27.53px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.icon-circle{
+  border: 1px solid #EEEEEE;
+  height: 50px;
+  width: 50px;
+  text-align:  center;        /* 中央寄せ */
+  border-radius: 25px;
+  line-height: 60px;
+}
