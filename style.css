@@ -36,7 +36,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #666666
+  background-color: red;
 }
 
 .logo{
@@ -52,9 +52,18 @@
 
 .icon-circle{
   border: 1px solid #EEEEEE;
-  height: 50px;
-  width: 50px;
-  text-align:  center;        /* 中央寄せ */
-  border-radius: 25px;
-  line-height: 60px;
+  border-radius: 50%;
+  /* position: relative; */
+}
+
+.header-right{
+  text-align: right;
+  display: flex;
+}
+
+.icon-image{
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
 }
