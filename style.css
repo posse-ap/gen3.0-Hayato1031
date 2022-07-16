@@ -84,3 +84,21 @@
   justify-content: center;
   align-items: center;
 }
+
+.copyright{
+  text-align: center;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+  
+  letter-spacing: 0.1em;
+  
+  /* gray-dark */
+  
+  color: #666666;
+
+  margin: 50px;;
+}
