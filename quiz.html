@@ -4,9 +4,103 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="destyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="./assets-ph1-website-main/img/logo.svg" alt="">
+      </a>
+    </div>
+    <div class="text-header-margin">
+      <a href="" class="whatheader">POSSEとは</a>
+      <a href="quiz.html" class="quizheader">クイズ</a>
+      <div class="header-right">
+        <div class="icon-circle"><img src="./assets-ph1-website-main/img/icon/icon-twitter.svg" alt="" class="icon-image"></div>
+        <div class="icon-circle"><img src="./assets-ph1-website-main/img/icon/icon-instagram.svg" alt="" class="icon-image"></div>
+      </div>
+    </div>
+  </header>
+  <main class="main-position">
+    <section>
+      <div class="img-box">
+        <img src="./assets-ph1-website-main/img/quiz/bg-hero.jpg" alt="">
+        <p class="position-text-box-1 noto-sans-jp">POSSE課題</p>
+        <p class="position-text-box-2 noto-sans-jp">ITクイズ</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="p-quiz-box-container">
+        <div class="p-quiz-box">
+          <div class="p-quiz-box-question padding-auto">
+            <p class="p-quiz-box__label noto-sans-jp">Q1</p>
+            <p class="p-quiz-box__label-text noto-sans-jp">日本のIT人材が2030年には最大どれくらい不足すると言われているでしょうか？</p>
+            <figure class="p-quiz-box__question__image">
+              <img src="./assets-ph1-website-main/img/quiz/img-quiz01.png" alt="">
+            </figure>
+          </div>
+          <div class="p-quiz-box-answer">
+            <p class="p-quiz-box__label p-quiz-box__label_red noto-sans-jp">A</p>
+            <ul class="p-quiz-box__answer__list">
+              <li class="p-quiz-box__answer__item">
+                <button class="p-quiz-box__answer__button js-answer" data-answer="0">
+                  <div class="answer-font-size">約28万人</div>
+                  <div class="p-quiz-box__answer_img"><img src="/assets-ph1-website-main/img/icon/icon-arrow.svg" alt="" clsss="icon-arrow"></div>
+                </button>
+              </li>
+              <li class="p-quiz-box__answer__item">
+                <button class="p-quiz-box__answer__button js-answer" data-answer="1">
+                  <div class="answer-font-size">約79万人</div>
+                  <div class="p-quiz-box__answer_img"><img src="/assets-ph1-website-main/img/icon/icon-arrow.svg" alt="" clsss="icon-arrow"></div>
+                </button>
+              </li>
+              <li class="p-quiz-box__answer__item">
+                <button class="p-quiz-box__answer__button js-answer" data-answer="2">
+                  <div class="answer-font-size">約183万人</div>
+                  <div class="p-quiz-box__answer_img"><img src="/assets-ph1-website-main/img/icon/icon-arrow.svg" alt="" clsss="icon-arrow"></div>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="p-quiz-box-note">
+            <img src="/assets-ph1-website-main/img/icon/icon-note.svg" alt="" clsss="icon-note">
+            <div class="note-font-size">経済産業省 2019年3月 － IT 人材需給に関する調査</div>
+          </div>
+        </div> 
+      </div>
+    </section>
+    <line-section>
+      <div class="bg-line-place line-section">
+        <div class="line-section-img"></div>
+      </div>
+    </line-section>
+    <line-nav>
+      <div class="green-back">
+        <div class="inline">
+          <div class="icon-line-size padding-auto"><img src="./assets-ph1-website-main/img/icon/LINE_Brand_icon.png" alt="" class="icon-size"></div>
+          <div class="noto-sans-jp padding-auto text-white">
+            POSSE公式LINEで<br>
+            最新情報をGET!
+          </div>
+          <img src="/assets-ph1-website-main/img/icon/icon-link-light.svg" alt="" class="padding-auto">
+        </div>
+      </div>
+    </line-nav>
+  </main>
+  <footer>
+    <hr>
+    <br>
+    <hr>
+    <div class="copyright">&copy;2022 POSSE</div>
+  </footer>
   
 </body>
 </html>
