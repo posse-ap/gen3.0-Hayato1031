@@ -1,20 +1,5 @@
-.whatheader{  
-  font-family: 'Noto Sans JP';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 160%;
-  /* or 22px */
-  
-  letter-spacing: 0.1em;
-  
-  /* gray-dark */
-  
-  color: #666666;
-}
-
-.quizheader{
-  font-family: 'Noto Sans JP';
+.whatheader {
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -26,20 +11,45 @@
   /* gray-dark */
 
   color: #666666;
+
+  margin: 10px;
+  vertical-align: middle;
 }
 
-.header{
+.quizheader {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  letter-spacing: 0.1em;
+
+  /* gray-dark */
+
+  color: #666666;
+
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.header {
   /* header */
   /* Auto layout */
 
   display: flex;
+  position: fixed;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  background-color: #666666
+  background-color: white;
+  z-index: 300;
+  width: 100%;
+  top: 0;
+  height: 80px;
 }
 
-.logo{
+.logo {
   /* logo */
   width: 148px;
   height: 27.53px;
@@ -48,13 +58,327 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+
+  margin: 10px;
+  margin-left: 30px;
 }
 
-.icon-circle{
-  border: 1px solid #EEEEEE;
-  height: 50px;
-  width: 50px;
-  text-align:  center;        /* 中央寄せ */
-  border-radius: 25px;
-  line-height: 60px;
+.icon-circle {
+  border: 1px solid #eeeeee;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+  /* position: relative; */
+}
+
+.header-right {
+  text-align: right;
+  display: flex;
+}
+
+.icon-image {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+}
+
+.text-header-margin {
+  margin: 0 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  letter-spacing: 0.1em;
+
+  /* gray-dark */
+
+  color: #666666;
+
+  margin: 50px;
+}
+
+.icon-line-size {
+  height: 36px;
+  width: 36px;
+}
+
+.noto-sans-jp {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+}
+
+.green-back {
+  background-color: #5fdf5b;
+  width: 280px;
+  height: 80px;
+  border-radius: 16px;
+  position: fixed;
+  left: 80%;
+  top: 88%;
+  z-index: 6;
+}
+
+.inline {
+  display: flex;
+  gap: 2150px 25px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateY(50%) translateX(7%);
+}
+
+.padding-auto {
+  padding: auto;
+}
+
+.icon-size {
+  height: 36px;
+  width: 36px;
+}
+
+.text-white {
+  color: white;
+}
+
+.big-color {
+  background-color: aqua;
+  height: 400px;
+}
+
+.bg-line-place {
+  text-align: center;
+}
+
+.line-section {
+  height: 360px;
+}
+
+.line-section-img {
+  width: 60%;
+  background: url(./assets-ph1-website-main/img/bg-line.jpg);
+  border-radius: 30px;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  margin-left: 20%;
+}
+
+.line-section-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 100, 255, 0.5);
+  border-radius: 30px;
+}
+
+.main-position {
+  margin-top: 80px;
+}
+
+.main-bg {
+  background-color: rgb(207, 207, 207);
+  border-radius: 24px;
+  white-space: nowrap;
+  display: inline-block;
+  align-self: center;
+  padding: 50px 62px;
+  position: relative;
+}
+
+.main-img-size {
+  /* max-width: 680px; */
+  object-fit: cover;
+  /* margin-right: 0%; */
+  width: 100%;
+  display: block;
+}
+
+.main-visual-inner {
+  display: flex;
+  max-width: 1280px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.SD-position {
+  position: absolute;
+  left: 32px;
+  bottom: 24px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main-visual-pic {
+  margin-right: calc(50% - 50vw);
+  margin-left: -125px;
+  max-height: 680px;
+  display: block;
+  overflow: hidden;
+  border-radius: 80px 0 0 80px;
+}
+
+.main-visual {
+  margin-bottom: 80px;
+}
+
+.name-text {
+  color: #0071bc;
+}
+
+.img-box {
+  position: relative;
+}
+
+.position-text-box-1 {
+  position: absolute;
+  top: 120px;
+  left: 240px;
+  z-index: 5;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.position-text-box-2 {
+  position: absolute;
+  top: 150px;
+  left: 240px;
+  font-size: 70px;
+  color: white;
+  font-weight: bold;
+}
+
+.header {
+  z-index: 10;
+}
+
+.p-quiz-box-container{
+  padding: 150px 250px;
+
+}
+
+.p-quiz-box__label {
+  background-color: #0071bc;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 36px;
+  padding: 8px 16px;
+}
+
+.p-quiz-box__label-text{
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 24px;
+}
+
+.p-quiz-box__question__image {
+  margin: 24px auto 0;
+  max-width: 718px;
+}
+
+.p-quiz-box__label_red{
+  background-color: #e34e70;
+  margin-top: 50px;
+}
+
+.p-quiz-box__answer__list {
+  gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 30px auto;
+}
+
+.p-quiz-box__answer__button {
+  border-width: 5px;
+  font-size: 18px;
+  padding: 19px;
+}
+
+.p-quiz-box__answer__button {
+  align-items: center;
+  border: solid 4px #eee;
+  border-radius: 8px;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.8;
+  padding: 16px;
+  text-align: left;
+  width: 100%;
+}
+
+button {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+.icon-arrow{
+  margin-right: 10px;
+}
+
+.p-quiz-box__answer_img{
+  margin-left: auto;
+  font-size: 0px;
+}
+
+.p-quiz-box-note{
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  display: block;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  gap: 16px;
+  line-height: 1.8;
+  margin-top: 16px;
+  padding: 24px;
+}
+
+.answer-font-size{
+  font-size: 18px;
+}
+
+.note-font-size{
+  font-size: 18px;
 }
